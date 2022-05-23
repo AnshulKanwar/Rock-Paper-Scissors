@@ -109,7 +109,7 @@ pub fn run() {
         println!("");
 
         loop {
-            println!("Wanna try again? (y/n)");
+            println!("Wanna play again? (y/n)");
             let mut res = String::new();
             io::stdin()
                 .read_line(&mut res)
